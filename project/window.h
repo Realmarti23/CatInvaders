@@ -9,9 +9,6 @@ class MainWindow : public QWidget {
 
 public:
     MainWindow();
-protected:
-    void paintEvent(QPaintEvent *event) override;
-    void keyPressEvent(QKeyEvent *event) override;
 
 private slots:
     void onTick();
