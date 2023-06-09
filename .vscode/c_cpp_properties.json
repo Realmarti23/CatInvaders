@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "MacOS",
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/homebrew/opt/qt6/include/**"
