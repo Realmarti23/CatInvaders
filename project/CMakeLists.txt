@@ -6,7 +6,7 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
 qt_standard_project_setup()
 
-qt_add_executable(CatInvaders main.cpp window.cpp)
+qt_add_executable(CatInvaders main.cpp window.cpp highscore.cpp player.cpp health.cpp)
 
 set_target_properties(CatInvaders PROPERTIES
     WIN32_EXECUTABLE TRUE
