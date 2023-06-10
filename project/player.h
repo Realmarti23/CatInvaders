@@ -7,7 +7,12 @@
 class Player : public QGraphicsRectItem {
 public:
     Player();
-    void keyPressEvent(QKeyEvent *event) override;
+
+protected:
+    void paint(QPainter* painter, const QStyleOptionGraphicsItem* options, QWidget* widget) override;
+
+    QRect sq;
+    QPoint dir;
 };
 
 #endif
